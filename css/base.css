@@ -118,19 +118,19 @@ color:#000;
 	-o-text-overflow: ellipsis; /* Opera */
 	white-space: nowrap;
 }
-@media(max-width:320px){
+@media(max-width:480px){
 	.title{
 		display: inline-block;
 		padding:0;
 	}
 	.title img{
-		width:290px
+		width:96.6% /*290px*/
 	}
 	.address{
 		display: none;
 	}
 	#wrapper{
-		width:300px;
+		width:100%;/*300px*/
 	}
 	#feed ul li ul li{
 		display:block
@@ -152,7 +152,7 @@ color:#000;
 		left: 227px;
 	}
 	#articletitle{
-		width:271px;
+		width:90%;/*271px*/
 		padding-left:13px;
 		overflow:visible;
 		white-space:normal
@@ -161,7 +161,7 @@ color:#000;
 		overflow:visible;
 		white-space:normal;
 		padding-left: 13px;
-		width: 271px;
+		width: 90%;/*271px*/
 	}
 	#blogname a{
 		font-size:10px;
