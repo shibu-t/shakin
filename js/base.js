@@ -63,12 +63,12 @@ function feedOutput(feedId, listNum){
 		var date = new Date(entry.publishedDate);//日付の表示変更
 		//useFeed += '<li>' + date.getFullYear() + '/' + (date.getMonth() + 1 ) + '/' + date.getDate() + '/' + date.getHours() + ':' + date.getMinutes() + '　<a href="' + entry.link + '" target="_blank">' + entry.title + '</a>（' + entry.blogName + '）</li>';//HTMLで書き出し
 		if(date.getMinutes() < 10){
-			useFeed += '<tr><td id=\"date\">' +(date.getMonth() + 1 ) + '/' + date.getDate() + '/' + date.getHours() + ':0' + date.getMinutes() + '　</td><td id=\"articletitle\"><a id=\"entryLink\" href=\"' + entry.link + '" target="_blank">' + entry.title + '</a></td><td><img src="http://b.hatena.ne.jp/entry/image/'+entry.link+'"></td><td id=\"blogname\"><a href=\"'+entry.blogLink+'\" target="_blank">' + entry.blogName + '</a></td></tr>';//HTMLで書き出し
+			useFeed += '<li id=\"line\"><ul><li id=\"date\">' +(date.getMonth() + 1 ) + '/' + date.getDate() + '/' + date.getHours() + ':0' + date.getMinutes() + '　</li><li id=\"articletitle\"><a id=\"entryLink\" href=\"' + entry.link + '" target="_blank">' + entry.title + '</a></li><li id=\"hatena\"><img src="http://b.hatena.ne.jp/entry/image/'+entry.link+'"></li><li id=\"blogname\"><a href=\"'+entry.blogLink+'\" target="_blank">' + entry.blogName + '</a></li></ul></li>';//HTMLで書き出し
 		}else{
-			useFeed += '<tr><td id=\"date\">' +(date.getMonth() + 1 ) + '/' + date.getDate() + '/' + date.getHours() + ':' + date.getMinutes() + '　</td><td id=\"articletitle\"><a id=\"entryLink\" href=\"' + entry.link + '" target="_blank">' + entry.title + '</a></td><td id=\"hatena\"><img src="http://b.hatena.ne.jp/entry/image/'+entry.link+'"></td><td id=\"blogname\"><a href=\"'+entry.blogLink+'\" target="_blank">' + entry.blogName + '</a></td></tr>';//HTMLで書き出し
+			useFeed += '<li id=\"line\"><ul><li id=\"date\">' +(date.getMonth() + 1 ) + '/' + date.getDate() + '/' + date.getHours() + ':' + date.getMinutes() + '　</li><li id=\"articletitle\"><a id=\"entryLink\" href=\"' + entry.link + '" target="_blank">' + entry.title + '</a></li><li id=\"hatena\"><img src="http://b.hatena.ne.jp/entry/image/'+entry.link+'"></li><li id=\"blogname\"><a href=\"'+entry.blogLink+'\" target="_blank">' + entry.blogName + '</a></li></ul></li>';//HTMLで書き出し
 		}
 	}
-	container.innerHTML = '<table>' + useFeed + '</table>';
+	container.innerHTML = '<ul>' + useFeed + '</ul>';
 }
 function asort(myArray, key){
 	//return myArray.sort ( function (b1, b2) { return b1[key] > b2[key] ? 1 : -1; } );//昇順
