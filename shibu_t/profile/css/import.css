@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+/* CSS Information ==============================
+File name: import.css
+Editors: Shinji Kobayashi
+Last Editor: Shinji Kobayashi
+Date: 2008.10.01
+============================================== */
+
+@import "reset.css";
+@import "base.css";
+@import "win-ie.css";

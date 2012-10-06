@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+/* CSS Information ==============================
+File name: base.css
+Editors: Shinji Kobayashi
+Last Editor: Shinji Kobayashi
+Date: 2008.10.01
+Table of contents:
+ +base element
+ +link pseudo-class
+ +header
+ +container
+ +footer
+ +general class
+ +clearfix
+ +a11y
+============================================== */
+body{
+	background-color:#F5F5F5;
+	background-image: url(../bg_223647.png);
+	background-repeat: repeat;
+}
+
+#header{
+	height: auto;
+	margin: 0 auto;
+	font-size: 25px;
+}
+
+.title{
+	display: inline-block;
+	padding-left: 339px;
+        padding-right: 162px;
+}
+
+#header a{
+	margin:0;
+	text-align:center;
+	text-decoration:none;
+	color:#555;
+	line-height:2em;
+	font-size:15px;;
+	font color:#555;
+	font-weight: bold;
+}
+
+#header .address a:hover{
+background-color:#A9A9A9;
+color:#000;
+}
+
+.address{
+	display: inline-block;
+}
+
+#wrapper{
+	width: 1050px;
+	height: auto;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background-color: #FFFFFF;
+	border: 24px solid #6FC3DF;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
+	/*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+	-moz-box-shadow: 0px 0px 8px #000000;
+	-webkit-box-shadow: 0px 0px 8px #000000;
+	box-shadow: 0px 0px 8px #000000;
+	/*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+}
+
+#feed{
+}
+
+#date{
+	font color:#555;
+	line-height:0;
+	height:0;
+}
+
+#articletitle{
+	width:700px;
+	padding-left:13px
+}
+
+#feed a{
+	margin:0;
+	text-align:center;
+	text-decoration:none;
+	color:#555;
+	line-height:2em;
+	font-size:15px;;
+	font color:#555;
+	font-weight: bold;
+}
+
+#feed a:hover{
+background-color:#A9A9A9;
+color:#000;
+}
+
+#blogname{
+	width:200px;
+}
+
+address {
+	padding:20px;
+	font-size: 10px;
+	color: #000;
+}
+

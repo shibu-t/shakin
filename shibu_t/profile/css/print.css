@@ -1,0 +1,85 @@
+﻿@charset "utf-8";
+
+@import "reset.css";
+
+/*========================================index
+/* +base set
+/* +page-break
+/* +display none
+========================================index*/
+
+/*====================
+ +base set
+====================*/
+body {
+	color: #000;
+	font-family: "ＭＳ Ｐ明朝", "細明朝体", serif;
+	font-size: 8pt;
+	line-height: 1.6;
+	}
+h1 {
+	margin-bottom: 6mm;
+	padding-bottom: 2mm;
+	border-bottom: 5px double #000;
+	font-size: 175%;
+	}
+h2 {
+	margin: 3mm 0;
+	padding-bottom: 2mm;
+	border-bottom: 2px solid #000;
+	font-size: 150%;
+	}
+h3 {
+	margin: 3mm 0;
+	padding-bottom: 2mm;
+	border-bottom: 1px dotted #000;
+	font-size: 125%;
+	}
+p,ul,ol,dl,table {
+	margin: 1mm 0;
+	}
+ul,ol {
+	margin-left: 2em;
+	}
+ul {
+	list-style: outside disc;
+	}
+ol {
+	list-style: outside decimal;
+	}
+blockquote {
+	margin: 1mm 3mm;
+	padding: 2mm;
+	border: 3px double #000;
+	}
+a[href^="http://"]:after {
+	content: " (" attr(href) ") ";
+	font-size: 90%;
+	}
+.section02,
+.section03 {
+	margin-left: 6mm;
+	}
+
+/*====================
+ +page-break
+====================*/
+ul,ol,dl,
+p,blockqote,
+table {
+	page-break-inside: avoid;
+	}
+
+/*====================
+ +display none
+====================*/
+#global-nav,
+#utility-nav,
+#secondary-contents,
+#footer h2,
+#footer ul,
+ul.pagetopA01,
+.movetoA01,
+.remove-navA01 {
+	display: none;
+	}

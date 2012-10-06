@@ -1,0 +1,128 @@
+﻿@charset "utf-8";
+
+/* CSS Information ==============================
+File name: base.css
+Editors: Shinji Kobayashi
+Last Editor: Shinji Kobayashi
+Date: 2008.10.01
+Table of contents:
+ +base element
+ +link pseudo-class
+ +header
+ +container
+ +footer
+ +general class
+ +clearfix
+ +a11y
+============================================== */
+
+div#wrapper{
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	border: 1px solid #222222;
+}
+div#header{
+	width: auto;
+	padding: 20px 10px;
+	background-color: #990000;
+	color: #fff;
+}
+
+div#header a{
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+div#header a:hover{
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+div#gloval-nav ul{
+list-style:none outside;
+overflow:hidden;
+width:900px;
+}
+div#gloval-nav li{
+float:left;
+border:1px solid #000;
+}
+div#gloval-nav li#item01,li#item02,li#item03{
+//border-right:none;
+}
+div#gloval-nav a{
+display:block;
+width:223px;
+margin:0;
+padding:0;
+text-align:center;
+text-decoration:none;
+color:#fff;
+background-color:#000;
+line-height:3em;
+}
+div#gloval-nav a:hover{
+background-color:#A9A9A9;
+color:#000;
+}
+
+div#columnA{
+	float:right;
+	width:259px;
+	height:auto;
+	padding:10px;
+	background-color:#e6e6fa;
+	margin:0;
+}
+div#columnA div.twitter{
+margin-top:10px;
+}
+div#columnA div.twitter a{
+margin-left:28px;
+}
+
+div#columnB{
+	float:left;
+	width:600px;
+	padding:10px;
+	background-color:#ffffff;
+	border-right:1px solid #222222;
+}
+div#columnB #mainContents{
+	float:left;
+	width:576px;
+	padding:10px;
+	background-color:#ffffff;
+	border:1px solid #222222;
+	margin-bottom:15px;
+}
+div#columnB div.article h3{
+	float:left;
+	width:576px;
+	padding:5px;
+	background-color:#ffffff;
+	border-left:3px solid #FF69B4;
+}
+div#columnB div.article p{
+	float:left;
+	width:576px;
+	padding:5px;
+	background-color:#ffffff;
+	margin-top:3px;
+}
+
+
+div#footer{
+	clear:both;
+	width:auto;
+	background-color:#222222;
+	text-align:center;
+}
+div#footer address{
+	font-style:normal;
+	font-size:0.8em;
+	line-height:2;
+	color:#999999;
+}

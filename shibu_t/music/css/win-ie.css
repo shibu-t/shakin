@@ -1,0 +1,33 @@
+﻿@charset "utf-8";
+
+/* CSS Information ==============================
+File name: win-ie.css
+Editors: Shinji Kobayashi
+Last Editor: Shinji Kobayashi
+Date: 2008.10.01
+============================================== */
+
+* html #other-contents .section-lv2,
+* html .link-list01,
+* html .link-list02 ul {
+	zoom: 1;
+	}
+*:first-child+html #other-contents .section-lv2 {
+	zoom: 1;
+	}
+*:first-child+html body {
+	letter-spacing: 0;
+	}
+
+* html body {
+	font-size: 75%;/* 12px(12/16) */
+	}
+
+* html #global-nav li {
+	margin-top: -1px;
+	padding-bottom: 1px;
+	}
+*:first-child+html li {
+	margin-top: -1px;
+	padding-bottom: 1px;
+	}
