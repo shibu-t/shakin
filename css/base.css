@@ -157,6 +157,10 @@ color:#000;
 		overflow:visible;
 		white-space:normal
 	}
+	#articletitle a{
+		font-size:16px;
+		color:#000;
+	}
 	#blogname{
 		overflow:visible;
 		white-space:normal;
