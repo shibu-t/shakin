@@ -118,10 +118,13 @@ color:#000;
 	-o-text-overflow: ellipsis; /* Opera */
 	white-space: nowrap;
 }
-@media(max-width:480px){
+@media(max-width:680px){
 	.title{
 		display: inline-block;
 		padding:0;
+		width:100%;
+		text-align:center;
+		
 	}
 	.title img{
 		width:96.6% /*290px*/
@@ -130,7 +133,9 @@ color:#000;
 		display: none;
 	}
 	#wrapper{
-		width:100%;/*300px*/
+		width:90%;/*300px*/
+		padding: 10px 5px;
+		border: 6px solid #6FC3DF;
 	}
 	#feed ul li ul li{
 		display:block
@@ -147,7 +152,7 @@ color:#000;
 		padding-left: 13px;
 	}
 	#feed #hatena{
-		margin-bottom: -24px;
+		margin-bottom: -20px;
 		position: relative;
 		left: 227px;
 	}
