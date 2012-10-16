@@ -9,7 +9,7 @@ function initialize() {
 	feedAdd("http://gasoku.livedoor.biz/index.rdf", 0);//ヴィブロ
 	feedAdd("http://blog.livedoor.jp/vipsister23/index.rdf", 0);//妹はVipper
 	feedAdd("http://blog.livedoor.jp/news23vip/index.rdf", 0);//VIPPERな俺
-	feedAdd("http://mudainodqnment.ldblog.jp/index.rdf", 0);//無題のドキュメント
+	feedAdd("http://www.mudainodocument.com/index.rdf", 0);//無題のドキュメント
 	feedAdd("http://blog.livedoor.jp/nicovip2ch/index.rdf", 0);//ニコニコVIP2ch
 	feedAdd("http://chaos2ch.com/index.rdf", 0);//カオスちゃんねる
 	feedAdd("http://mamesoku.com/index.rdf", 0);//まめ速
@@ -24,7 +24,7 @@ function initialize() {
 	feedAdd("http://news4vip.livedoor.biz/index.rdf", 0);//ニュー速クオリティ
 	feedAdd("http://blog.livedoor.jp/dqnplus/index.rdf", 0);//痛いニュース
 	feedAdd("http://blog.livedoor.jp/kinisoku/index.rdf",0);//キニ速
-	feedAdd("http://blog.livedoor.jp/goldennews/index.rdf",0);//キニ速
+	feedAdd("http://blog.livedoor.jp/goldennews/index.rdf",0);//ゴールデンタイムズ
 	//feedAdd("", 0);//
 	feedAdd("http://michaelsan.livedoor.biz/index.rdf ", 1);//もみあげチャーシュー
 }
